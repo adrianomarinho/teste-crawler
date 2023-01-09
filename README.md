@@ -13,6 +13,9 @@ Instale my-project com npm
   git clone git@github.com:adrianomarinho/teste-crawler.git
   cd teste-crawler
   docker-compose up -d
+  docker exec -it crawler-app bash
+  
+  php artisan key:generate
 ```
 
 
