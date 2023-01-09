@@ -10,7 +10,7 @@ Este crawler obtem um resultado de uma rota e exibe na tela.
 Instale my-project com npm
 
 ```bash
-  git clone 
+  git clone git@github.com:adrianomarinho/teste-crawler.git
   cd crawler
   docker-compose up -d
 ```
