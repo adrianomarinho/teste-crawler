@@ -11,7 +11,7 @@ Instale my-project com npm
 
 ```bash
   git clone git@github.com:adrianomarinho/teste-crawler.git
-  cd crawler
+  cd teste-crawler
   docker-compose up -d
 ```
 
