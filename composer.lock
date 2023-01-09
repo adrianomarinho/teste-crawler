@@ -1317,16 +1317,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.64.1",
+            "version": "2.65.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "f2e59963f4c4f4fdfb9fcfd752e8d2e2b79a4e2c"
+                "reference": "09acf64155c16dc6f580f36569ae89344e9734a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f2e59963f4c4f4fdfb9fcfd752e8d2e2b79a4e2c",
-                "reference": "f2e59963f4c4f4fdfb9fcfd752e8d2e2b79a4e2c",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/09acf64155c16dc6f580f36569ae89344e9734a3",
+                "reference": "09acf64155c16dc6f580f36569ae89344e9734a3",
                 "shasum": ""
             },
             "require": {
@@ -1415,7 +1415,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-01T23:17:36+00:00"
+            "time": "2023-01-06T15:55:01+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -1665,20 +1665,20 @@
         },
         {
             "name": "psr/container",
-            "version": "1.1.2",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
-                "reference": "513e0666f7216c7459170d56df27dfcefe1689ea"
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/513e0666f7216c7459170d56df27dfcefe1689ea",
-                "reference": "513e0666f7216c7459170d56df27dfcefe1689ea",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/8622567409010282b7aeebe4bb841fe98b58dcaf",
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4.0"
+                "php": ">=7.2.0"
             },
             "type": "library",
             "autoload": {
@@ -1707,9 +1707,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-fig/container/issues",
-                "source": "https://github.com/php-fig/container/tree/1.1.2"
+                "source": "https://github.com/php-fig/container/tree/1.1.1"
             },
-            "time": "2021-11-05T16:50:12+00:00"
+            "time": "2021-03-05T17:36:06+00:00"
         },
         {
             "name": "psr/http-client",

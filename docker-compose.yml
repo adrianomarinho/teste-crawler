@@ -3,10 +3,9 @@ services:
   app:
     build:
       context: ./
-      dockerfile: Dockerfile
     container_name: crawler-app
     restart: unless-stopped
-    working_dir: /var/www/
+    working_dir: /var/www
     volumes:
       - ./:/var/www
     networks:
@@ -17,7 +16,7 @@ services:
     container_name: crawler-nginx
     restart: unless-stopped
     ports:
-      - 8000:80
+      - 8000:8080
     volumes:
       - ./:/var/www
       - ./docker-compose/nginx:/etc/nginx/conf.d/
