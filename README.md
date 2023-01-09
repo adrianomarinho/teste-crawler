@@ -7,7 +7,7 @@ Este crawler obtem um resultado de uma rota e exibe na tela.
 
 ## Instalação
 
-Instale my-project com npm
+Instale crawler-app com Docker
 
 ```bash
   git clone git@github.com:adrianomarinho/teste-crawler.git
@@ -15,6 +15,7 @@ Instale my-project com npm
   docker-compose up -d
   docker exec -it crawler-app bash
   
+  composer install
   php artisan key:generate
 ```
 
